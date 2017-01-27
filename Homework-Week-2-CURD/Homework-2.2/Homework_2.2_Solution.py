@@ -61,5 +61,5 @@ def delete_student_document(id):
         print "Unexpected Error", type(ex), ex
 
 
-# function calls
+# function call
 students_count()
