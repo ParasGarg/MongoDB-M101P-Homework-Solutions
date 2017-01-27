@@ -1,0 +1,7 @@
+/* 
+  * After importing the handout. 
+  * Enter the following commands in your mongodb shell to find out the answer of the  homework.
+*/
+
+> use video
+> db.movieDetails.find( {"countries.1":"Sweden"} ).count()
