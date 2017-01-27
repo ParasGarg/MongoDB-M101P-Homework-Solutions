@@ -1,0 +1,12 @@
+/*
+  * Soluton of Homework 2.3
+*/
+
+
+// In validation_login
+query = { '_id':username }
+
+user = self.users.find_one(query)
+
+// In add user
+self.users.insert_one(user)
