@@ -1,0 +1,5 @@
+/*
+  * Answer of Homework 2.2
+*/
+
+Answer>> 54
