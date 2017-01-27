@@ -1,0 +1,5 @@
+/*
+  * Answer of Homework 2.5
+*/
+
+Answer>> 6
