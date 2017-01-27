@@ -2,9 +2,8 @@
 mongoimport /d students /c grades grades.json
 
 /* 
- * After importing the student database and grades collection enter the commands in your mongodb shell to find out the answer of the homework.
+  * After importing the student database and grades collection. 
+  * Enter the following commands in your mongodb shell to find out the answer of the  homework.
 */
-
 > use students 
-
 > db.grades.find({ score:{$gte:65} }).sort({ score:1 }).limit(1)
