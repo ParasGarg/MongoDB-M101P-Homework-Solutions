@@ -1,5 +1,0 @@
-/*
-  * Answer of Homework 1.2
-*/
-
-Answer>> 1815
