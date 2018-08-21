@@ -13,16 +13,16 @@ def students_count():
     query = { 'type':'homework' }
 
     try:
-        cursor = grades.find(query)
+        cursor = grades.find(query).count()
 
     except Exception as ex:
         print "Unexpected Error", type(ex), ex
 
-    student_id_count = 0
-    for doc in cursor:
-        if student_id_count < doc['student_id']:
-            student_id_count = doc['student_id']
-
+    #student_id_count = 0
+    #for doc in cursor:
+    #    if student_id_count < doc['student_id']:
+    #       student_id_count = doc['student_id']
+    student_id_count = cursor
     print student_id_count, "\n"
     find_students_of_type_homework(student_id_count)
 
